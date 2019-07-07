@@ -43,6 +43,7 @@ public class StreamDemo {
         }).sorted((o1, o2) -> {
             return o2.compareTo(o1);
         }).limit(1).collect(Collectors.toList()));
+        System.out.println("hello hxj");
     }
 }
 
